@@ -1,0 +1,17 @@
+[parity]
+chain = "/root/.local/share/io.parity.ethereum/chain-spec.json"
+base_path = "/root/.local/share/io.parity.ethereum"
+[network]
+port = 30303
+bootnodes = [
+"enode://6f24b2746a786264ae014ecd3cbf3dd8afb5f69da0ccb7ad644f90a04fe76f3136701e6908c20deb8723c501c83e2cb5bccbec21e2d21d8981421e4cbc0681ad@133.130.96.215:30303",
+"enode://43073b7964b229fc6e98789bc174aeae514cece6b172262826d7ca8894f968b548b9217a2ed7753fab6e68ad355f893c37d89ab8f7e78bcd96aaca5531288520@133.130.116.67:30303"
+]
+id = 12345
+[rpc]
+port = 8545
+apis = ['web3','eth','net','personal','parity','parity_set','traces','rpc','parity_accounts']
+[ui]
+port = 8180
+[dapps]
+port = 8080

@@ -6,7 +6,8 @@
                 "gasLimitBoundDivisor": "0x400",
                 "stepDuration": "5",
                 "validators" : { "contract": "0x0000000000000000000000000000000000000005" },
-                "blockReward": "0x4563918244F40000"
+                "blockReward": "0x4563918244F40000",
+                "validateStepTransition": 299634553
             }
         }
     },
